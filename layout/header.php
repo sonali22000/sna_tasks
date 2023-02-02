@@ -28,9 +28,8 @@
           <a class="nav-link" aria-current="page" href="index.php">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" hrf="ex1.php">excersise 1</a>
-
-        </li>
+          <a class="nav-link" href="ex1.php">excercise 1</a>
+         </li>
         <li class="nav-item">
           <a class="nav-link" href="aboutus.php">About us</a>
         </li>

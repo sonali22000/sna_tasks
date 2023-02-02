@@ -1,21 +1,26 @@
+<!DOCTYPE html>
 <?php include"header.php"?>
-<h1> some content </h1>
-<p> orem Ipsum is simply dummy text of the printing and typesetting industry. 
-    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software 
-    like Aldus PageMaker including 
-    orem Ipsum is simply dummy text of the printing and typesetting industry. 
-    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including 
-</p>
-<p>
-orem Ipsum is simply dummy text of the printing and typesetting industry. 
-    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, 
-    but also the leap into electronic typesetting, 
-    remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including 
-</p>
+<h2><b>ADMISSION OPEN FOR 2023</b></h2>
+<img class="header-image" src="https://i.pinimg.com/originals/64/07/f8/6407f8b72e8c1afa198ddd37b81baef6.jpg " alt="background image">
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 
 
 
+    <div class="row">
+        <div class="col-md-12">
+        <h2><b><i>ADMISSION OPEN FOR 2023</i></b></h2>
+        </div>
+    </div>  
+    <div class="row">
+        <div class="col-md-12">
+        <h3><b> Download our enrollment form and email to</b></h3>
+        <h4><b> ©info@twinklingstars.com</b></h4>
+        <a class="btn btn-danger" role="button" href="enrollmentfoam.pdf">Enrollment form</a>
+        </div>
+    </div>  
+    
 
+  </body>
+</html>
 
-
-<?php include"footer.php"?>

@@ -1,4 +1,7 @@
-<?php include "header.php"?>
+<?php 
+$title = "ex 1 :HAMK oy";
+include "header.php"?>
+<h2> excercise 1 </h2>
 
 <h3> 3.1 Write a simple PHP script to print your information (Name and your groupid ) </h3>
     <?php //OPENING TAG 

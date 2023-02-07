@@ -1,14 +1,17 @@
 </div>
   </div>
   <div class="row">
-<footer style="background-color: rgb(65, 7, 109); color: white;">
+  <footer style="background-color: rgb(65, 7, 109); color: white;">
 
-  <!-- Copyright -->
-  <div class="footer-copyright text-center py-3">© 2020 Copyright
-  </div>
-  <!-- Copyright -->
+<!-- Copyright -->
+<div class="footer-copyright text-center py-3">© 2020 Copyright <br>
+<?php echo " Last modified on  " . date("l, d M Y H:i ");?>
+</div>
+<!-- Copyright -->
 
-</footer></div>
+</footer>
+
+</div>
 </div>
 
 <!-- Optional JavaScript -->

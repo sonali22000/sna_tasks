@@ -62,21 +62,8 @@ echo "Total=".$total;
     used to view your pages. (Use predefined variables: $_SERVER).</h6>
 
     <?php
-    echo $_SERVER['HTTP_USER_AGENT'] . "\n\n";
+echo $_SERVER['HTTP_USER_AGENT']."\n\n"
 ?>
-<h6>
-
-<h7> 7.Write a PHP script in the footer section of your universal footer just below 
-    the Copyright information to display the last modification time of a file. (Hint: Use predefined 
-    variable $_SERVER, basename function  to get the filename , filetime function to get the last 
-    modified time & date function to print the date and time)<h7>
-<? include "footer.php" ?>
-
-
-
-
-
-
 
 <?php include "footer.php"?>
 

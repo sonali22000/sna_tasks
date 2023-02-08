@@ -36,12 +36,12 @@ else
     their total score for a subject. Use variable to hold the total score.  
 <h3>
 <?php
-$score = 100;
 
+$score = 100;
 if ($score > 80) {
-    echo "Excellent "; }
-elseif ($score > 70) {
-    echo "Great ";}
+    echo "Excellent";}
+elseif($score > 70){
+    echo "Great";}
 elseif ($score > 60) {
     echo "Good ";}  
 elseif ($score > 50) {
@@ -49,13 +49,38 @@ elseif ($score > 50) {
 elseif ($score < 50)  {
     echo "Fail ";}
 ?>
-
-<h3>4.Write a program to get inputs (age and name) from the user and based on their age, 
-decide if he/she is eligible for voting. (18 or more than 18 years is eligible for voting,)<h3>
+<h3> 5.Use Switch statement with strops function to print the name of the browser as below
+If someone is using Chrome it should print, you are using Goolge Chrome<h3>
 <?php
+function getbrowser()
+{
+    $user_agent = $_server['HTTP_USER_AGENT'];
+    $BROWSER ="N/A";
+    $browsers = [
+        '/msie/i' => 'Internet explorer',
+        '/firefox/i'=> 'Firefox',
+        '/safari/i'=>'safari',
+        '/chrome/i'=>'chrome',
+        '/edge/i'=>'edge',
+        '/opera/i'=>'opera',
+        '/mobile/i'='mobile browser',
+
+    ];
+    foreach($browsers as $regex=>$value)
+    {
+        if(preg_match($regex,$user_agent))
+        {
+            $browser=$value;
+        }
+    }
+    return $browser;
+}
+echo"You are using:".getBrowser();
+
+?>
 
 
- 
+
      
 <?php include "footer.php"?>
 

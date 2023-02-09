@@ -54,7 +54,7 @@ If someone is using Chrome it should print, you are using Goolge Chrome<h3>
 <?php
 function getbrowser()
 {
-    $user_agent = $_server['HTTP_USER_AGENT'];
+    $user_agent = $_SERVER['HTTP_USER_AGENT'];
     $BROWSER ="N/A";
     $browsers = [
         '/msie/i' => 'Internet explorer',
@@ -63,7 +63,7 @@ function getbrowser()
         '/chrome/i'=>'chrome',
         '/edge/i'=>'edge',
         '/opera/i'=>'opera',
-        '/mobile/i'='mobile browser',
+        '/mobile/i'=>'mobile browser',
 
     ];
     foreach($browsers as $regex=>$value)

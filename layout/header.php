@@ -40,6 +40,9 @@
           <a class="nav-link" href="controlflow.php">excercise 4</a>
          </li>
 
+         <li class="nav-item">
+          <a class="nav-link" href="array.php">excercise 5</a>
+         </li>
 
         <li class="nav-item">
           <a class="nav-link" href="aboutus.php">About us</a>

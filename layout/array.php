@@ -42,15 +42,13 @@ if (isset($result)){
 }
 }
 ?>
-<h4>1.  Write a php script to display courses as list. Use 
-$courses=array("PHP", "HTML", "JavaScript", "CMS", "Project")<li><h4>
+<h4>1.  Write a php script to display courses as list. Use <h4>
 <?php
-$courses1=array("PHP","HTML","JavaScript","CMS","Project");
-unset($courses1["4"]);
-foreach ($courses1 as $value) {
-    echo $value."<br>";
-    var_dump($courses1);}
-    
+$courses = array("PHP", "HTML", "JavaScript", "CMS", "Project");
+
+foreach ($courses as $value) {
+    echo "<li>" . $value . "</li>";
+}
 
 ?>
 

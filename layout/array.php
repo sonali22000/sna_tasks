@@ -55,14 +55,21 @@ foreach ($courses as $value) {
 <h4>2. dump action
     <?php
     $courses1=array("PHP","HTML","JavaScript","CMS","Project");
-    unset($courses1["4"]);
+    unset($courses1["20"]);
+    echo "<h6> use unset function to remove the third element of the array </h6>";
     foreach ($courses1 as $value) {
         echo $value."<br>";
+    }
+    echo "Dumb information about element of the array";
         var_dump($courses1);
+    ?>
+    <br>
+    <?PHP
+    echo"Print only the values of the array elements";
         $values=array_values($courses1);
         foreach ($values as $value) {
             echo $value . "<br>";}
-        }
+        
     ?>
 <h4> 3.sorting<h4>
     <?php
@@ -99,20 +106,20 @@ foreach ($courses as $value) {
     ?>
 <h4>4. all values to upper case<h4>
     <?php
-    $courses=array("PHP","HTML","JavaScript","CMS","Project");
-    print_r(array_change_key_case($course,CASE_UPPER));
+    $courses=array("php", "html", "javascript", "cms", "project");
+    print_r(array_change_key_case($courses,CASE_UPPER));
     ?>
 <h4>5.List all your favorite colors and their hexadecimal equivalents<h4>
 
 <?php
-$color['#ff0000'] = "Red";
-$color['#ffc0cb'] = "Pink";
-$color['#0000ff'] = "Blue";
-$color['#800080'] = "Purple";
-$color['#008000'] = "Green";
+$color['#1982c4'] = "Blue";
+$color['#ffca3a'] = "Yellow";
+$color['#ff595e'] = "Red";
+$color['#8ac926'] = "Green";
+$color['#6a4c93'] = "Purple";
 
-foreach($color as $x=>$x_values) {
-    echo $x. "=>".$x_values."<br>";}
+foreach ($color as $x=>$x_values) {
+    echo $x . "=>".$x_values."<br>";}
     ?>
 <h4>6.PHP script to calculate and display average temperature<h4>
     <?php

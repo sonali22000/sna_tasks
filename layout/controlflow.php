@@ -51,6 +51,7 @@ elseif ($score < 50)  {
 ?>
 <h3> 5.Use Switch statement with strops function to print the name of the browser as below
 If someone is using Chrome it should print, you are using Goolge Chrome<h3>
+
 <?php
 function getbrowser()
 {

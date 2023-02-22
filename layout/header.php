@@ -12,6 +12,7 @@
     color: white;
 }
     </style>
+    <script src="js/site.js"> </script>
 </head>
 <body>
   <div class="container" >
@@ -63,6 +64,7 @@
   <div class="row" style="margin-top: 10px; margin-bottom: 10px; margin-right: 5px;">
     <div class="col-sm-3" style="background-color: rgba(228, 235, 194, 0.353);">
       <h3>List of Tasks</h3>
-      some thing here
+      <h5>simple input<h5>
+      <h5>Detect Browser<h5>
     </div>
     <div class="col-sm-9">
